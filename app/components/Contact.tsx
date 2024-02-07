@@ -5,7 +5,7 @@ function Contact() {
 
 
 
-    const handleCopy  = (data)=>{
+    const handleCopy  = (data:string)=>{
        console.log(data)
        navigator.clipboard.writeText(data);
     }
@@ -13,7 +13,7 @@ function Contact() {
     return (
         <div className="" >
             <h3 className="text-2xl font-semibold mb-8 text-center">Contactanos</h3>
-            <div className="flex gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <p onClick={()=>handleCopy("esalassulca@gmail.com")}  className="mb-2 bg-primary/50 py-3 px-4 rounded-md flex gap-4 cursor-pointer" >
                     <span>esalassulca@gmail.com </span><CopyIcons />
                 </p>

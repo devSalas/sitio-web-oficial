@@ -4,7 +4,10 @@ function Services() {
             <h2 className="text-5xl font-bold text-center mb-16">Servicios</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 mb-16">
                 <figure className="m-auto">
-                    <div className="w-60 h-60 bg-slate-300 rounded-md mb-8"></div>
+                    <div className="w-60 h-60 bg-slate-300 rounded-md mb-8">
+
+                    </div>
+                  {/*   <img  className="w-60 h-60  rounded-md mb-8" src="./dent_life_servicio.jpg" alt="" /> */}
                 </figure>
                 <div className="m-auto">
                     <h3 className="text-4xl text-pretty font-bold mb-8">Integre Chatbots a su Pagina web.</h3>
