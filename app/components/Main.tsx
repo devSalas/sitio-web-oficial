@@ -1,11 +1,9 @@
-import BannerPromotion from "./BannerPromotion";
 import Header from "./Header";
 
 function Main() {
     return (
         <main className="min-h-screen">
             <Header />
-            {/* <BannerPromotion/> */}
             <h1 className="text-3xl mt-20 mb-8 text-center  font-semibold sm:text-5xl">Sunetya</h1>
             <p className="my-8   text-pretty sm:max-w-lg sm:mx-auto">En Sunetya, nos dedicamos apasionadamente a convertir tus ideas en realidad en el mundo digital. Como expertos en desarrollo de páginas web, nuestro equipo fusiona creatividad y tecnología para crear experiencias en línea cautivadoras y funcionales. </p>
             <div className="text-center text-co-primary mb-8">
