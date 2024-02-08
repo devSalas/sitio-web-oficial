@@ -96,4 +96,4 @@ Hosting +. Dominio COM*</li>
     </div>);
 }
 
-export default Plans;
+export default Planes;
