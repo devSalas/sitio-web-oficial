@@ -2,10 +2,10 @@ import Header from "../../components/Header";
 import Services from "../../components/Services";
 import Main from "../../components/Main";
 import Promotions from "../../components/Promotions";
-import Plans from "../../components/Plans";
 import Footer from "../../components/Footer";
 import Comments from "../../components/Comments";
 import BannerPromotion from "../../components/BannerPromotion";
+import Plans from "@/app/components/Plans";
 function Home() {
     return (
         <div>
