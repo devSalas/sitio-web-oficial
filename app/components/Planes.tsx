@@ -1,6 +1,6 @@
 import CheckmarkIcon from "./icons/Checkmark";
 
-function Plans() {
+function Planes() {
     return (<div className="pt-32">
 
         <h2 className="text-5xl font-bold text-center mb-16">Obten planes especiales</h2>

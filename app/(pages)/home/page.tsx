@@ -5,7 +5,7 @@ import Promotions from "../../components/Promotions";
 import Footer from "../../components/Footer";
 import Comments from "../../components/Comments";
 import BannerPromotion from "../../components/BannerPromotion";
-import Plans from "@/app/components/Plans";
+import Plans from "@/app/components/Planes";
 function Home() {
     return (
         <div>
