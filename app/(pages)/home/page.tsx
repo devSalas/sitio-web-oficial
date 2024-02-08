@@ -28,7 +28,7 @@ function Home() {
             </div>
             <Promotions />
             <div  className="px-4 max-w-5xl m-auto ">
-                <Footer />
+                <Footer /> 
 
             </div>
             <hr />
